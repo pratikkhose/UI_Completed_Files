@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallary</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome_5.8.1.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background:lightpink;
+    }
+    /*-------------------main header------------------*/
+    .main-header{
+        background: white url("img/image5.jpeg") no-repeat scroll top;
+        color: white;
+        font-size: 30px;
+        padding: 10px 15px;
+        text-align: right;
+    }
+    .main-header h2{
+        font-family: Algerian;
+    }
+    /*---------------main navbar---------*/
+    .main-nav{
+        background: black;
+        font-size: 25px;
+        padding:15px;
+        box-shadow: 0 0 10px black;
+
+    }
+    .main-nav a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        background:linear-gradient(45deg,deeppink,darkviolet,deeppink);
+        border-radius: 30px;
+        padding: 10px 12px;
+        display: inline-block;
+        font-family: Algerian;
+    }
+    .main-nav a.active{
+        background:red;
+    }
+    .main-nav a:hover{
+        background: deeppink;
+    }
+    /*---------------main Footer--------*/
+    .main-footer{
+        background: white url("img/image5.jpeg") no-repeat scroll top;
+        padding: 20px 25px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: Algerian;
+        font-style: italic;
+    }
+    .main-footer a{
+        color:hotpink;
+    }
+    /*-----gallary--------*/
+    .gallery-section{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .gallery-figure{
+        border: 2px solid darkred;
+        width: 300px;
+        margin: 5px;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .gallery-figure:hover{
+        box-shadow: 0 0 10px darkred;
+        cursor: pointer;
+    }
+    .gallery-zoom{
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .gallery-zoom img{
+        width: inherit;
+        height: inherit;
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+    .gallery-zoom:hover img{
+        transform: scale(1.2,1.2);
+    }
+    .gallery-figure figcaption{
+        color: darkred;
+        padding: 10px;
+    }
+</style>
+<body>
+
+<!-- Main header-->
+<header class="main-header">
+    <h2 class="animated slideInRight">UiBrains Techno Portal</h2>
+</header>
+
+<!--main navbar-->
+<nav class="main-nav">
+    <div class="animated slideInLeft">
+        <a href="index.html">
+            <i class="fa fa-home"></i>HOME</a>
+        <a href="about.html">
+            <i class="fa fa-id-card"></i>ABOUT</a>
+        <a href="news.html">
+            <i class="fa fa-newspaper"></i>NEWS</a>
+        <a href="gallery.html" class="active">
+            <i class="fa fa-images"></i>GALLARY</a>
+        <a href="contact.html">
+            <i class="fa fa-envelope"></i>CONTACT</a>
+    </div>
+</nav>
+
+<!--gallary-section-->
+<section class="gallery-section">
+    <!--laptop 1-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_laptop_1.jpg">
+        </div>
+        <figcaption>laptop 1</figcaption>
+    </figure>
+
+    <!--laptop 2-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_laptop_2.jpg">
+        </div>
+        <figcaption>laptop 2</figcaption>
+    </figure>
+
+    <!--laptop 3-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_laptop_3.jpg">
+        </div>
+        <figcaption>laptop 3</figcaption>
+    </figure>
+
+    <!--laptop 4-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_laptop_4.jpg">
+        </div>
+        <figcaption>laptop 4</figcaption>
+    </figure>
+
+    <!--mobile 5-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_mobile_1.jpg">
+        </div>
+        <figcaption>Mobile 1</figcaption>
+    </figure>
+
+    <!--mobile 6-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_mobile_2.jpg">
+        </div>
+        <figcaption>Mobile 2</figcaption>
+    </figure>
+    <!--mobile 7-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_mobile_3.jpg">
+        </div>
+        <figcaption>Mobile 3</figcaption>
+    </figure>
+    <!--mobile 4-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_mobile_4.jpg">
+        </div>
+        <figcaption>Mobile 4</figcaption>
+    </figure>
+
+    <!--tablet 1-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_tablet_1.jpg">
+        </div>
+        <figcaption>tablet 1</figcaption>
+    </figure>
+
+    <!--tablet 2-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_tablet_2.jpg">
+        </div>
+        <figcaption>tablet 2</figcaption>
+    </figure>
+
+    <!--tablet 3-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_tablet_3.jpg">
+        </div>
+        <figcaption>tablet 3</figcaption>
+    </figure>
+
+    <!--tablet 4-->
+    <figure class="gallery-figure">
+        <div class="gallery-zoom">
+            <img src="img/gallery_tablet_4.jpg">
+        </div>
+        <figcaption>tablet 4</figcaption>
+    </figure>
+
+
+
+
+</section>
+
+
+<!--main footer-->
+<footer class="main-footer">
+    <h3>Copyright © 2019 , UiBrains Technologies</h3>
+    <p>All Rights Reserved</p>
+    <p>Developed & Maintained by
+        <a href="https://github.com/thenaveensaggam" target="_blank">
+            <i class="fa fa-users"></i>UiBrains Technologies
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>

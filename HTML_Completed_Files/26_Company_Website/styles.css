@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ------------ Main Header --------------- */
+header{
+    background-image: url("img/background2.jpg");
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+/* ---------------- Main Navigation -------------- */
+nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #9c3e34;
+}
+nav a.active{
+    background-color: darkred;
+}
+
+/* ----------------- Sidebar ----------------- */
+aside{
+    background-image: url("img/background2.jpg");
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0;
+    height: 900px;
+}
+aside a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* -------------- Main Content --------------- */
+section{
+    margin-left: 250px;
+
+}
+article{
+    padding: 20px;
+}
+article h1{
+     font-size: 35px;
+    color: darkred;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+
+/* ------------------- Main Footer ---------- */
+footer{
+    background-image: url("img/background2.jpg");
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: orange;
+}

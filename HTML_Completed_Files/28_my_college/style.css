@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+   /* background-image: url("img/22.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+*/
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 3px black;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+h2 {
+    background-image: linear-gradient(25deg, red, orange, yellow, green, white, white, blue, indigo, violet);
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+
+p, td {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+img, iframe {
+    box-shadow: 0 0 10px black;
+    border: 5px solid white;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+
+}
+
+iframe:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#bac{
+    background-image: linear-gradient(25deg,floralwhite, greenyellow,lightyellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-origin: border-box;
+}

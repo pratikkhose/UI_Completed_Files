@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome_5.8.1.css">
+    <title>contact form</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:lightpink;
+        }
+        /*-------------------main header------------------*/
+        .main-header {
+            background: white url("img/image5.jpeg") no-repeat scroll top;
+            color: white;
+            font-size: 30px;
+            padding: 10px 15px;
+            text-align: right;
+        }
+        .main-header h2{
+            font-family: Algerian;
+        }
+        /*---------------main navbar---------*/
+        .main-nav{
+            background: black;
+            font-size: 25px;
+            padding:15px;
+            box-shadow: 0 0 10px black;
+
+        }
+        .main-nav a{
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            background:linear-gradient(45deg,deeppink,darkviolet,deeppink);
+            border-radius: 30px;
+            padding: 10px 12px;
+            display: inline-block;
+            font-family: Algerian;
+        }
+        .main-nav a.active{
+            background:red;
+        }
+        .main-nav a:hover{
+            background: deeppink;
+        }
+        /*---------------main Footer--------*/
+        .main-footer{
+            background: white url("img/image5.jpeg") no-repeat scroll top;
+            padding: 20px 25px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-family: Algerian;
+            font-style: italic;
+        }
+        .main-footer a{
+            color:hotpink;
+        }
+
+        /* --------------- Contact Section ---------------- */
+        .form-section{
+            background: white url("img/image5.jpeg") no-repeat bottom;
+            padding: 20px;
+            font-family: Algerian;
+        }
+        .contact-article{
+            width: 250px;
+            text-align: center;
+            margin: auto;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .contact-article h2{
+            color: white;
+        }
+        .input{
+            font-size: 18px;
+            text-align: center;
+            border: none;
+            outline: none;
+            margin: 5px;
+            height: 35px;
+            width: 200px;
+            background: transparent;
+            border-bottom: 3px solid #514640;
+            color: white;
+        }
+        textarea{
+            border: 3px solid #514640;
+            outline: none;
+            background: transparent;
+            margin: 5px;
+            border-radius: 10px;
+            width: 180px;
+        }
+        textarea:focus{
+            border: 3px solid #bca487;
+        }
+        ::placeholder{
+            color: lightgray;
+        }
+        .input:focus{
+            border-bottom: 3px solid #bca487;
+        }
+        #sub-btn{
+            background-color: #514640;
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 10px 50px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50px;
+            margin: 10px;
+            outline: none;
+        }
+        #sub-btn:hover{
+            background-color: #bca487;
+            color: black;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<!-- Main header-->
+<header class="main-header">
+    <h2 class="animated slideInRight">UiBrains Techno Portal</h2>
+</header>
+
+<!--main navbar-->
+<nav class="main-nav">
+    <div class="animated slideInLeft">
+        <a href="index.html">
+            <i class="fa fa-home"></i>HOME</a>
+        <a href="about.html">
+            <i class="fa fa-id-card"></i>ABOUT</a>
+        <a href="news.html">
+            <i class="fa fa-newspaper"></i>NEWS</a>
+        <a href="gallery.html">
+            <i class="fa fa-images"></i> GALLARY</a>
+        <a href="contact.html" class="active">
+            <i class="fa fa-envelope"></i>CONTACT</a>
+    </div>
+</nav>
+
+<section class="form-section">
+        <article class="contact-article animated jackInTheBox">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" class="input" placeholder="user name">
+                <br>
+                <input type="email" class="input" placeholder="your email">
+                <br>
+                <input type="text" class="input" placeholder="your subject">
+                <br>
+                <textarea rows="5" cols="20"></textarea>
+                <br>
+                <input type="submit" value="contact" id="sub-btn">
+            </form>
+        </article>
+    </section>
+
+    <!--main footer-->
+    <footer class="main-footer">
+        <h3>Copyright © 2019 , UiBrains Technologies</h3>
+        <p>All Rights Reserved</p>
+        <p>Developed & Maintained by
+            <a href="https://github.com/thenaveensaggam" target="_blank">
+                <i class="fa fa-users"></i>UiBrains Technologies
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ------------ Main Header --------------- */
+header{
+   background: linear-gradient(45deg,blue,darkblue);
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+/* ---------------- Main Navigation -------------- */
+nav{
+    background: linear-gradient(45deg,yellow,yellowgreen);
+    padding: 5px;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #aed728;
+}
+nav a.active{
+    background-color: yellowgreen;
+}
+
+/* ----------------- Sidebar ----------------- */
+aside{
+    background: linear-gradient(60deg,yellow,darkblue,yellow);
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px white;
+    position: sticky;
+    top: 0;
+    height: 900px;
+}
+aside a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* -------------- Main Content --------------- */
+section{
+    margin-left: 250px;
+
+}
+article{
+    padding: 20px;
+}
+article h1{
+     font-size: 35px;
+    color: darkblue;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+article table{
+    width: 100%;
+}
+article img{
+    width: 100%;
+}
+
+/* ------------------- Main Footer ---------- */
+footer{
+    margin-left: 250px;
+    background: linear-gradient(60deg,yellow,darkblue,yellow);
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: orange;
+}

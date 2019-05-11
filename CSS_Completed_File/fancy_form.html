@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fancy css form</title>
+    <link rel="stylesheet" href="animate.css">
+</head>
+<style>
+    body{
+        font-family: Arial,sans-serif;
+        background: white url("img/image5.jpeg")repeat scroll bottom left;
+    }
+    .form_div{
+        width:250px;
+        text-align: center;
+        margin:150px auto ;
+        border: 2px solid #363638;
+        height: 320px;
+        background-color: rgba(0,0,0,0.5);
+        box-shadow: 0 0 10px #363638;
+    }
+    .form_div img{
+        width: 50%;
+        margin-top: -50px;
+        border: 5px solid #363638;
+        border-radius: 50%;
+    }
+    .form_div h2{
+        color: white;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    input[type='text'],input[type='password']{
+        text-align: center;
+        border: none;
+        outline:none;
+        font-size: 18px;
+        height: 35px;
+        background: transparent;
+        color: white;
+        border-bottom: 3px solid black;
+        width: 200px;
+    }
+    input[type='text']:focus,input[type='password']:focus{
+        border-bottom: 3px solid #363638;
+    }
+    input[type='submit']{
+        background-color:black;
+        color: white;
+        font-size: 28px;
+        border-radius: 50px;
+        margin:10px;
+        border: none;
+        padding:10px 15px;
+        box-shadow:0 0 10px #363638;
+    }
+    ::placeholder{
+        color:white;
+    }
+    input[type='submit']:hover{
+        background-color:#363638;
+        color: white;
+        box-shadow: 0 0 10px white;
+
+    }
+</style>
+<body>
+    <!--Login form here-->
+    <div class="form_div animated flip">
+        <img src="img/user4.png">
+        <h2>Login Form</h2>
+        <form>
+            <input type="text" placeholder="username">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

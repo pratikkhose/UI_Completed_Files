@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fieldset Legend</title>
+    <style>
+        form{
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        fieldset{
+            border: 2px solid orangered;
+            margin: 20px;
+            box-shadow: 0 0 5px black;
+            padding: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        legend{
+            background-color: orangered;
+            color: white;
+            padding: 14px 25px;
+            border:2px solid white;
+            box-shadow: 0 0 5px black;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            font-size: 20px;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Father's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Mother's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>

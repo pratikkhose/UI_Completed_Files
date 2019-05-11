@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome_5.8.1.css">
+    <title>news</title>
+    <style>
+        /*---------------main news-------------*/
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:lightpink;
+        }
+        /*-------------------main header------------------*/
+        .main-header {
+            background: white url("img/image5.jpeg") no-repeat scroll top;
+            color: white;
+            font-size: 30px;
+            padding: 10px 15px;
+            text-align: right;
+        }
+        .main-header h2{
+            font-family: Algerian;
+        }
+        /*---------------main navbar---------*/
+        .main-nav{
+            background: black;
+            font-size: 25px;
+            padding:15px;
+            box-shadow: 0 0 10px black;
+
+        }
+        .main-nav a{
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            background:linear-gradient(45deg,deeppink,darkviolet,deeppink);
+            border-radius: 30px;
+            padding: 10px 12px;
+            display: inline-block;
+            font-family: Algerian;
+        }
+        .main-nav a.active{
+            background:red;
+        }
+        .main-nav a:hover{
+            background: deeppink;
+        }
+        .main-session{
+            margin: auto;
+            width: 1100px;
+        }
+        .main-article h2{
+            background:linear-gradient(45deg,brown,palevioletred,brown);
+            text-align: center;
+            border-radius: 40px;
+            font-size: 40px;
+            font-family: Algerian;
+            box-shadow: 0 0 10px black;
+            font-style: italic;
+        }
+        .zoom{
+            width: 600px;
+            height: 350px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            overflow: hidden;
+        }
+        .zoom img{
+            width: inherit;
+            height: inherit;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            transition: all 0.5s;
+        }
+        .zoom img:hover{
+            transform: scale(1.2,1.2);
+        }
+        .main-article p {
+            font-size: 20px;
+            text-align: center;
+            color:darkmagenta;
+            font-family: "Times New Roman";
+            font-weight: bold;
+        }
+        /*--mainFooter--*/
+        .main-footer{
+            background: white url("img/image5.jpeg") no-repeat scroll top;
+            padding: 20px 25px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-family: Algerian;
+            font-style: italic;
+        }
+        .main-footer a{
+            color:hotpink;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main header-->
+    <header class="main-header">
+        <h2 class="animated slideInRight">UiBrains Techno Portal</h2>
+    </header>
+
+    <!--main navbar-->
+    <nav class="main-nav">
+        <div class="animated slideInLeft">
+            <a href="index.html">
+                <i class="fa fa-home"></i>HOME</a>
+            <a href="about.html">
+                <i class="fa fa-id-card"></i>ABOUT</a>
+            <a href="news.html" class="active">
+                <i class="fa fa-newspaper"></i>NEWS</a>
+            <a href="gallery.html">
+                <i class="fa fa-images"></i> GALLARY</a>
+            <a href="contact.html">
+                <i class="fa fa-envelope"></i>CONTACT</a>
+        </div>
+    </nav>
+
+    <!--Main news-->
+    <section class="main-session animated slideInUp">
+        <!-- Laptop News -->
+        <article class="main-article">
+            <h2>Lenovo 20GB RAM , 5TB HD Released</h2>
+            <div class="zoom">
+                <img src="img/article_laptop.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque beatae consequuntur eum facere magnam maiores molestiae natus nostrum sint. At corporis eaque eos itaque molestias possimus, sint suscipit voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque eaque enim, harum iure molestias natus nemo nostrum sint vel! Alias aliquam aut dicta dolor doloremque eos fugiat id ipsam perspiciatis, quaerat quisquam, recusandae voluptatum! A adipisci cum fugit sequi!</p>
+        </article>
+
+        <!-- Mobile News -->
+        <article class="main-article">
+            <h2>Google Pixel 3 Released in May,2019</h2>
+            <div class="zoom">
+                <img src="img/article_mobile.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque beatae consequuntur eum facere magnam maiores molestiae natus nostrum sint. At corporis eaque eos itaque molestias possimus, sint suscipit voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque eaque enim, harum iure molestias natus nemo nostrum sint vel! Alias aliquam aut dicta dolor doloremque eos fugiat id ipsam perspiciatis, quaerat quisquam, recusandae voluptatum! A adipisci cum fugit sequi!</p>
+        </article>
+
+        <!-- Tablet News -->
+        <article class="main-article">
+            <h2>HCL Tablet Released in May,2019</h2>
+            <div class="zoom">
+                <img src="img/article_tablet.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque beatae consequuntur eum facere magnam maiores molestiae natus nostrum sint. At corporis eaque eos itaque molestias possimus, sint suscipit voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque eaque enim, harum iure molestias natus nemo nostrum sint vel! Alias aliquam aut dicta dolor doloremque eos fugiat id ipsam perspiciatis, quaerat quisquam, recusandae voluptatum! A adipisci cum fugit sequi!</p>
+        </article>
+
+    </section>
+
+    <!--main footer-->
+    <footer class="main-footer">
+        <h3>Copyright © 2019 , UiBrains Technologies</h3>
+        <p>All Rights Reserved</p>
+        <p>Developed & Maintained by
+            <a href="https://github.com/thenaveensaggam" target="_blank">
+                <i class="fa fa-users"></i>UiBrains Technologies
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>

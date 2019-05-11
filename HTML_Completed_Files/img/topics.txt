@@ -1,0 +1,40 @@
+CSS
+----
+-> CSS Selectors
+-> CSS Basics 
+-> CSS3 Transform , Transition , Animations
+-> CSS3 Media Queries , FlexBox , Grid System
+
+JavaScript
+----------
+-> Data structures
+-> scopes , closures
+-> ES6 features
+-> callbacks , promises
+-> Exception Handling
+-> Classes
+-> DOM
+
+JQuery
+------
+-> DOM manipulation
+-> Effects / Events / Handling
+-> Plugins
+-> Form Validations
+-> AJAX
+
+Bootstrap 4
+------------
+-> Cards
+-> Modals
+-> Carousels
+-> Navbars
+-> Grid System
+
+Node JS , Express JS , Mongo DB
+
+
+
+
+
+
