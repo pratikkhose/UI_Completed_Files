@@ -1,0 +1,36 @@
+.watch-section{
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    margin: 15px;
+}
+.watch-article{
+    box-shadow: 0 0 10px black;
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.watch-article h2{
+    font-size: 40px;
+    margin: 20px 0;
+    font-family: "Old English Text MT",sans-serif;
+}
+.watch-article p{
+    font-size: 20px;
+}
+.watch-article h1{
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0;
+}
+.watch-article:nth-child(1){
+    background: linear-gradient(45deg,black,red);
+}
+.watch-article:nth-child(2){
+    background: linear-gradient(45deg,black,blue);
+}
+.watch-article:nth-child(3){
+    background: linear-gradient(45deg,black,green);
+}

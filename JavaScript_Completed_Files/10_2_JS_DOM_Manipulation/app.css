@@ -1,0 +1,42 @@
+section{
+
+    text-align: center;
+    margin: 15px;
+}
+button{
+    font-size: 20px;
+    padding: 12px 25px;
+    margin: 10px;
+    background: linear-gradient(45deg,black,red);
+    color: white;
+    outline: none;
+}
+table{
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 0 5px black;
+}
+table , th , td{
+    border: 2px solid orangered;
+    padding: 15px;
+    border-collapse: collapse;
+}
+thead th{
+    background: orangered;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: coral;
+}
+tr:nth-child(odd){
+    background-color: lightsalmon;
+}
+#search{
+    font-size: 25px;
+    margin-top: 10px;
+    height: 45px;
+    border: 2px solid orangered;
+    outline: none;
+    border-radius: 5px;
+
+}

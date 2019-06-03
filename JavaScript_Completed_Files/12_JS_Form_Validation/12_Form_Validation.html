@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="12_styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS Form Validation</a>
+</nav>
+
+<!-- Message Division -->
+<div id="msg-div">
+
+</div>
+
+<div class="register-form-div">
+    <h2>Register Here</h2>
+    <form onsubmit="return validateForm()">
+        <input id="username" type="text" placeholder="User Name" class="input-field">
+        <br>
+        <input id="email" type="email" placeholder="Email" class="input-field">
+        <br>
+        <input id="password" type="password" placeholder="Password" class="input-field">
+        <br>
+        <input id="c_password" type="password" placeholder="Confirm Password" class="input-field">
+        <br>
+        <input type="submit" value="Register" id="register-btn">
+    </form>
+</div>
+
+
+
+<script src="12_script.js"></script>
+</body>
+</html>

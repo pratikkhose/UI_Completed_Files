@@ -1,0 +1,15 @@
+section{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+section h2{
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    color: white;
+}
+section button{
+    padding: 14px 25px;
+    font-size: 18px;
+}

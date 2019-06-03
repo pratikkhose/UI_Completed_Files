@@ -1,0 +1,66 @@
+1) Convert a number to palindrome Number
+Ex: 12 -> 121
+Ex: 456 => 45654
+
+2) Convert to Reverse Word Number
+Ex: 123 => THREE TWO ONE
+
+
+3) Convert to Palindrom Word Number
+Ex: 12 => ONE TWO ONE
+Ex: 45 => FOUR FIVE FOUR
+
+4) triangle ONE
+Ex: G
+    GO
+	GOO
+	GOOD
+	
+5) triangle TWO
+Ex: GOOD
+     OOD
+      OD
+       D
+
+6) triangle THREE
+Ex: GOOD
+    GOO
+    GO
+    G
+
+7) triangle FOUR
+Ex:    D
+      OD
+     OOD
+    GOOD
+
+8) display triangle numbers '4'
+Ex: 1111
+    222
+    33
+    4
+
+9) display triangle numbers '4'
+Ex: 4444
+    333
+	22
+	1
+
+10) display rambus numbers
+Ex:      3
+       2 3 4
+	 1 2 3 4 5
+       2 3 4
+         3
+
+		 
+Practice Coding
+---------------
+1) https://codingbat.com
+2) https://www.hackerearth.com/
+3) https://www.hackerrank.com/
+4) https://www.codechef.com/
+5) https://www.codecademy.com
+	
+
+
