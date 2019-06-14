@@ -1,0 +1,38 @@
+#mouse-div{
+    height: 5px;
+    background-color: black;
+}
+#btn1{
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(45deg,blueviolet,hotpink);
+    border-radius: 15px;
+}
+.par{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(45deg,blueviolet,hotpink);
+    border-radius: 15px;
+}
+
+#btn2,#btn-2,#btn-1{
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(45deg,palevioletred,navy);
+    border-radius: 15px;
+}
+.par1,p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(45deg,palevioletred,navy);
+    border-radius: 15px;
+}
+div,div1{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="03_styles.css">
+    <title>JQuery Events</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JQuery Events</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+    <div class="mt-4"></div>
+
+    <!-- Click Event -->
+    <h2>Click Event</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <button id="btn-1" class="btn btn-black">Click Me</button>
+                    </div>
+                    <div class="card-body">
+                        <img id="image" src="../img/image1.jpg" class="img-fluid img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <h1>Keyup event</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <form>
+                            <div class="form-group">
+                                <input id="text-box" type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-body">
+                        <h2 id="display" class="font-weight-bold text-primary text-center"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <h1>Change Event</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <div class="form-group">
+                                        <select id="technologies" class="form-control">
+                                            <option value="">Select a Language</option>
+                                            <option value="HTML">HTML</option>
+                                            <option value="CSS">CSS</option>
+                                            <option value="JavaScript">JavaScript</option>
+                                            <option value="JQuery">JQuery</option>
+                                            <option value="Bootstrap">Bootstrap</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col">
+                                <h3 id="options" class="text-primary font-weight-bold"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div style="margin-top:500px;"></div>
+
+
+<!-- BODY ENDS -->
+<script src="../jquery-3.4.1.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<script src="03_app.js"></script>
+</body>
+</html>
+

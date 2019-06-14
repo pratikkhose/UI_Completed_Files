@@ -1,0 +1,39 @@
+.my-text{
+    height : 200px;
+    border-radius:10px;
+    font-size:30px;
+
+}
+.my-text:focus{
+    border:2px solid #00796b;
+}
+.btn-block{
+    width: 500px !important;
+}
+/* Your custom styles */
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 5px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.bg-teal , .btn-teal{
+    background: linear-gradient(45deg,black,teal) !important;
+}
+.bg-primary , .btn-primary{
+    background: linear-gradient(45deg,black,blue) !important;
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,green) !important;
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orangered) !important;
+}
+.bg-danger , .btn-danger{
+    background: linear-gradient(45deg,black,red) !important;
+}
+.bg-secondary , .btn-secondary{
+    background: linear-gradient(45deg,black,purple) !important;
+}

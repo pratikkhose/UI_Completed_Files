@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+        .bg-warning , .btn-warning{
+            background: linear-gradient(45deg,black,orangered) !important;
+        }
+    </style>
+    <title>Modals in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+    <a class="navbar-brand" href="#">Modals in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--######################## START HERE #########################-->
+
+    <!-- MODAL TRIGGER -->
+    <button class="btn btn-warning" data-toggle="modal" data-target="#employee-modal">Add Employee</button>
+
+
+    <div class="modal animated flip" id="employee-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-white">
+                    <h3>Add Employee</h3>
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Employee Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Employee Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Default Password">
+                        </div>
+                        <a href="#" class="btn btn-dark" data-dismiss="modal">Close</a>
+                        <input type="submit" value="Add Employee" class="btn btn-warning">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--######################## END HERE #########################-->
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>

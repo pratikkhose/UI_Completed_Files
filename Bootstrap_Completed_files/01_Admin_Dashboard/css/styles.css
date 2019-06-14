@@ -1,0 +1,52 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+}
+.bg-primary, .btn-primary{
+    background: linear-gradient(45deg,black,blue) !important;
+}
+.bg-secondary, .btn-secondary{
+    background: linear-gradient(45deg,black,purple) !important;
+}
+.bg-success, .btn-success{
+    background: linear-gradient(45deg,black,limegreen) !important;
+}
+.bg-warning, .btn-warning{
+    background: linear-gradient(45deg,black,orangered) !important;
+}
+.bg-danger, .btn-danger{
+    background: linear-gradient(45deg,black,red) !important;
+}
+.bg-dark, .btn-dark{
+    background: linear-gradient(45deg,black,darkslategray) !important;
+}
+.bg-teal, .btn-teal{
+    background: linear-gradient(45deg,black,teal) !important;
+}
+
+.text-teal{
+    color: teal;
+}
+.text-primary{
+    color: darkblue;
+}
+.text-secondary{
+    color: purple;
+}
+.text-success{
+    color: darkgreen;
+}
+.text-warning{
+    color: orangered;
+}
+.text-danger{
+    color: darkred;
+}
+.dropdown-item:hover{
+    background: linear-gradient(45deg,black,gray) !important;
+    color: white !important;
+}
+.p-image{
+    box-shadow: 0 0 10px black !important;
+    border-radius: 10px;
+}

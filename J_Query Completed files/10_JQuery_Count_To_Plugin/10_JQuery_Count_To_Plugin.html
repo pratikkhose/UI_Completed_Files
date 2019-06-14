@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <title>JQuery Magnify Plugin</title>
+    <style>
+        .bg-primary{
+            background-color: #78a5f0 !important;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JQuery Magnify Plugin</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<!-- Count To Plugin -->
+<section class="p-3 bg-primary mt-4">
+    <div class="container">
+        <div class="row text-center text-white">
+            <div class="col-md-3">
+                <i class="fa fa-users fa-3x"></i>
+                <h1 class="font-weight-bold display-3">
+                    <span class="timer" data-from="0" data-to="1245"
+                          data-speed="3000" data-refresh-interval="50"></span>
+                </h1>
+                <h2>Learners</h2>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-graduation-cap fa-3x"></i>
+                <h1 class="font-weight-bold display-3">
+                    <span class="timer" data-from="0" data-to="5685"
+                          data-speed="2000" data-refresh-interval="50"></span>
+                </h1>
+                <h2>Graduates</h2>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-book-open fa-3x"></i>
+                <h1 class="font-weight-bold display-3">
+                    <span class="timer" data-from="0" data-to="1681"
+                          data-speed="4000" data-refresh-interval="50"></span>
+                </h1>
+                <h2>Courses</h2>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-download fa-3x"></i>
+                <h1 class="font-weight-bold display-3">
+                    <span class="timer" data-from="0" data-to="54785"
+                          data-speed="5000" data-refresh-interval="50"></span>
+                </h1>
+                <h2>Downloads</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div style="margin-top:500px;"></div>
+
+
+<!-- BODY ENDS -->
+<script src="../jquery-3.4.1.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<!-- Plugin Js File -->
+<script src="plugin/jquery.countTo.js"></script>
+<script src="10_app.js"></script>
+<script>
+    $('.timer').countTo();
+</script>
+</body>
+</html>

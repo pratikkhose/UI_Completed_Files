@@ -1,0 +1,11 @@
+.elem > span {
+    display: block;
+    cursor: pointer;
+    padding-bottom:	68%;
+    background-size: cover;
+    background-position: center center;
+}
+.d_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px purple !important;
+}

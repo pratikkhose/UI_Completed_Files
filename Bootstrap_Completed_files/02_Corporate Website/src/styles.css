@@ -1,0 +1,53 @@
+.carousel .carousel-indicators li {
+    height: 5px;
+    width: 30px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+
+.bg-teal , .btn-teal{
+    background-color: #0c3a3a !important;
+}
+.text-teal{
+    color: #0c3a3a;
+}
+.c_image{
+    box-shadow: 0 0 10px #0c3a3a;
+    border-radius: 10px;
+}
+.white-shadow{
+    text-shadow: 0 0 2px white;
+}
+.t_card{
+    box-shadow: 0 0 10px #0c3a3a;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #0c3a3a;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover .fab{
+    color: white;
+}
+.t_img{
+    box-shadow: 0 0 10px #0c3a3a;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+
+/* --------------- Course Card ---------------- */
+.c_card{
+    box-shadow: 0 0 10px #0c3a3a;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.c_card:hover{
+    background-color: #0c3a3a;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.c_card:hover .fa , .c_card:hover .fab{
+    color: white;
+}
